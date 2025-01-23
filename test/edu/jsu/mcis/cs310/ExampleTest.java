@@ -51,6 +51,7 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     @Test
+    //Finished test
     public void testReverseMessage4(){
         String reversedString = main.reverse("hydro flask");
         assertEquals(expectedReverse4, reversedString);
